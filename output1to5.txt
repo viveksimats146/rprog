@@ -1,0 +1,269 @@
+Name: age <- as.integer(readline(prompt = "Enter your age: ")) 
+Age: 19 
+R Version: R version 4.4.2 (2024-10-31 ucrt) 
+Details of object: a 
+ num 1
+
+Details of object: a1 
+ int [1:4, 1:3, 1:2] 1 2 3 4 5 6 7 8 9 10 ...
+
+Details of object: age 
+ int 19
+
+Details of object: b 
+ num 3
+
+Details of object: c 
+ num 6
+
+Details of object: car 
+Classes ‘tbl_df’, ‘tbl’ and 'data.frame':	1624 obs. of  7 variables:
+ $ Vehicle: int  1 2 3 4 5 6 7 8 9 10 ...
+ $ fm     : num  0 10 15 0 13 21 11 5 8 1 ...
+ $ Mileage: num  863 4644 16330 13 22537 ...
+ $ lh     : num  1.1 2.4 4.2 1 4.5 3.1 0.7 2.9 3.4 0.7 ...
+ $ lc     : num  66.3 233 325.1 66.6 328.7 ...
+ $ mc     : num  697 120 175 0 175 ...
+ $ State  : chr  "MS" "CA" "WI" "OR" ...
+
+Details of object: char 
+ chr "A"
+
+Details of object: char1 
+ chr "Be Happy"
+
+Details of object: child 
+ logi [1:5] FALSE TRUE TRUE FALSE TRUE
+
+Details of object: df 
+'data.frame':	5 obs. of  3 variables:
+ $ name : chr  "anne" "pete" "frank" "julia" ...
+ $ age  : num  2 4 6 8 9
+ $ child: logi  FALSE TRUE TRUE FALSE TRUE
+
+Details of object: df1 
+ chr [1:3, 1:3] "1" "2" "3" "a" "b" "c" "TRUE" "FALSE" "TRUE"
+ - attr(*, "dimnames")=List of 2
+  ..$ : NULL
+  ..$ : chr [1:3] "vnum" "vstrc" "vlog"
+
+Details of object: df2 
+'data.frame':	3 obs. of  3 variables:
+ $ vnum : chr  "1" "2" "3"
+ $ vstrc: chr  "a" "b" "c"
+ $ vlog : chr  "TRUE" "FALSE" "TRUE"
+
+Details of object: e 
+<environment: R_GlobalEnv> 
+
+Details of object: factors_of_number 
+ int [1:6] 1 2 4 7 14 28
+
+Details of object: fibonacci 
+function (n)  
+ - attr(*, "srcref")= 'srcref' int [1:8] 1 14 9 1 14 1 1 9
+  ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x00000237cf691c18> 
+
+Details of object: find_factors 
+function (n)  
+ - attr(*, "srcref")= 'srcref' int [1:8] 1 17 9 1 17 1 1 9
+  ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x00000237cf4a2cf8> 
+
+Details of object: first_10_fibonacci 
+ num [1:10] 0 1 1 2 3 5 8 13 21 34
+
+Details of object: get_object_details 
+function (obj_name)  
+ - attr(*, "srcref")= 'srcref' int [1:8] 1 23 6 1 23 1 1 6
+  ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x00000237d0c1ee00> 
+
+Details of object: i 
+ int 100
+
+Details of object: j 
+ int 20
+
+Details of object: k 
+ int 20
+
+Details of object: list1 
+List of 3
+ $ : num [1:3] 1 2 3
+ $ : chr [1:3] "a" "b" "c"
+ $ : logi [1:3] TRUE FALSE TRUE
+
+Details of object: list2 
+List of 4
+ $ : num [1:3] 1 2 3
+ $ : chr [1:3] "a" "b" "c"
+ $ : logi [1:3] TRUE FALSE TRUE
+ $ :List of 3
+  ..$ : num [1:3] 1 2 3
+  ..$ : chr [1:3] "a" "b" "c"
+  ..$ : logi [1:3] TRUE FALSE TRUE
+
+Details of object: logic 
+ logi TRUE
+
+Details of object: logic1 
+ logi TRUE
+
+Details of object: logic2 
+ logi FALSE
+
+Details of object: lower_case_letters 
+ chr [1:10] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j"
+
+Details of object: mat 
+ logi [1:3, 1:2] TRUE TRUE TRUE FALSE FALSE FALSE
+
+Details of object: max_value 
+ num 8
+
+Details of object: mean_20_to_60 
+ num 40
+
+Details of object: min_value 
+ num 1
+
+Details of object: my_vector 
+ num [1:6] 3 5 1 8 2 7
+
+Details of object: myarray 
+ int [1:20, 1:20, 1:20] 1 2 3 4 5 6 7 8 9 10 ...
+
+Details of object: mymat 
+ int [1:30, 1:30] 1 2 3 4 5 6 7 8 9 10 ...
+
+Details of object: n 
+ num 100
+
+Details of object: name 
+ chr "age <- as.integer(readline(prompt = \"Enter your age: \"))"
+
+Details of object: num 
+ num 13
+
+Details of object: num1 
+ num 14.9
+
+Details of object: number 
+ num 28
+
+Details of object: obj 
+ chr "obj"
+
+Details of object: objects 
+ chr [1:62] "a" "a1" "age" "b" "c" "car" "char" "char1" "child" "df" "df1" "df2" "e" ...
+
+Details of object: pirates 
+'data.frame':	1000 obs. of  17 variables:
+ $ id             : int  1 2 3 4 5 6 7 8 9 10 ...
+ $ sex            : chr  "male" "male" "male" "female" ...
+ $ age            : num  28 31 26 31 41 26 31 31 28 30 ...
+ $ height         : num  173 209 170 144 158 ...
+ $ weight         : num  70.5 105.6 77.1 58.5 58.4 ...
+ $ headband       : chr  "yes" "yes" "yes" "no" ...
+ $ college        : chr  "JSSFP" "JSSFP" "CCCC" "JSSFP" ...
+ $ tattoos        : num  9 9 10 2 9 7 9 5 12 12 ...
+ $ tchests        : num  0 11 10 0 6 19 1 13 37 69 ...
+ $ parrots        : num  0 0 1 2 4 0 7 7 2 4 ...
+ $ favorite.pirate: chr  "Jack Sparrow" "Jack Sparrow" "Jack Sparrow" "Jack Sparrow" ...
+ $ sword.type     : chr  "cutlass" "cutlass" "cutlass" "scimitar" ...
+ $ eyepatch       : num  1 0 1 1 1 1 0 1 0 1 ...
+ $ sword.time     : num  0.58 1.11 1.44 36.11 0.11 ...
+ $ beard.length   : num  16 21 19 2 0 17 1 1 1 25 ...
+ $ fav.pixar      : chr  "Monsters, Inc." "WALL-E" "Inside Out" "Inside Out" ...
+ $ grogg          : num  11 9 7 9 14 7 9 12 16 9 ...
+
+Details of object: prime_numbers 
+ int [1:25] 2 3 5 7 11 13 17 19 23 29 ...
+
+Details of object: qs 
+function (x)  
+ - attr(*, "srcref")= 'srcref' int [1:8] 1 5 11 1 5 1 1 11
+  ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x00000237cf4c0fa8> 
+
+Details of object: random_vector 
+ int [1:10] -20 28 0 -37 16 -9 -1 -8 50 -37
+
+Details of object: recursive.factorial 
+function (x)  
+ - attr(*, "srcref")= 'srcref' int [1:8] 1 22 5 1 22 1 1 5
+  ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x00000237cf4a5d00> 
+
+Details of object: s 
+List of 3
+ $ name: chr "john"
+ $ age : num 21
+ $ gpa : num 3.5
+ - attr(*, "class")= chr "student"
+
+Details of object: sequence_20_to_50 
+ int [1:31] 20 21 22 23 24 25 26 27 28 29 ...
+
+Details of object: sieve_of_eratosthenes 
+function (n)  
+ - attr(*, "srcref")= 'srcref' int [1:8] 1 26 10 1 26 1 1 10
+  ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x00000237cf4b0748> 
+
+Details of object: specific_upper_case_letters 
+ chr [1:3] "V" "W" "X"
+
+Details of object: sum_51_to_91 
+ int 2911
+
+Details of object: upper_case_letters 
+ chr [1:10] "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z"
+
+Details of object: v 
+ chr "viv"
+
+Details of object: vec1 
+ num [1:6] 1 2 3 4 5 6
+
+Details of object: vehicle 
+'data.frame':	1624 obs. of  7 variables:
+ $ Vehicle: int  1 2 3 4 5 6 7 8 9 10 ...
+ $ fm     : num  0 10 15 0 13 21 11 5 8 1 ...
+ $ Mileage: num  863 4644 16330 13 22537 ...
+ $ lh     : num  1.1 2.4 4.2 1 4.5 3.1 0.7 2.9 3.4 0.7 ...
+ $ lc     : num  66.3 233 325.1 66.6 328.7 ...
+ $ mc     : num  697 120 175 0 175 ...
+ $ State  : chr  "MS" "CA" "WI" "OR" ...
+
+Details of object: viv 
+'data.frame':	16 obs. of  3 variables:
+ $ Name: chr  "White" "Silver" "Gray" "Black" ...
+ $ HEX : chr  "#FFFFFF" "#C0C0C0" "#808080" "#000000" ...
+ $ RGB : chr  "rgb(100,100,100)" "rgb(75,75,75)" "rgb(50,50,50)" "rgb(0,0,0)" ...
+
+Details of object: vlog 
+ logi [1:3] TRUE FALSE TRUE
+
+Details of object: vnum 
+ num [1:3] 1 2 3
+
+Details of object: vstrc 
+ chr [1:3] "a" "b" "c"
+
+Details of object: x 
+List of 4
+ $ name     : chr "vivek"
+ $ acno     : num 1234
+ $ saving   : num 10000
+ $ withdrawn: num 500
+ - attr(*, "class")= chr "bank"
+
+Details of object: y 
+ int 3
+
+Details of object: z 
+ cplx 4+2i
+
+ [1] 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49
+[31] 50
+[1] 40
+[1] 2911
+ [1] -20  28   0 -37  16  -9  -1  -8  50 -37
+ [1]  0  1  1  2  3  5  8 13 21 34
